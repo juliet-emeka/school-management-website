@@ -1,0 +1,271 @@
+.nursery-page-wrapper {
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    color: #2b2b2b;
+    background-color: var(--canvas-absolute-white, #ffffff);
+    line-height: 1.6;
+}
+
+.nursery-container {
+    width: 90%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.nursery-tagline {
+    display: inline-block;
+    color: var(--theme-orange-accent, #F57C00);
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 12px;
+}
+
+
+.nursery-hero-banner {
+    background: linear-gradient(rgba(34, 34, 34, 0.7), rgba(34, 34, 34, 0.7)), 
+                url('../images/nurs.jpg') no-repeat center center/cover;
+    padding: 60px 0;
+    color: #ffffff;
+    text-align: center;
+}
+
+.nursery-main-title {
+    font-size: 2.6rem;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+}
+
+.nursery-breadcrumbs {
+    font-size: 0.95rem;
+    margin: 0;
+    opacity: 0.9;
+}
+
+.nursery-breadcrumbs .active-crumb {
+    color: var(--theme-orange-accent, #F57C00);
+    font-weight: 600;
+}
+
+
+.nursery-intro-section {
+    padding: 80px 0;
+}
+
+.nursery-grid {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 60px;
+    align-items: center;
+}
+
+.nursery-intro-content h2 {
+    color: var(--theme-dark-red-base, #D32F2F);
+    font-size: 2.2rem;
+    line-height: 1.25;
+    margin: 0 0 20px 0;
+}
+
+.nursery-intro-content p {
+    color: #555555;
+    font-size: 1.05rem;
+    margin-bottom: 20px;
+}
+
+.nursery-key-focus-list {
+    margin-top: 30px;
+}
+
+.focus-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.focus-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    background-color: rgba(211, 47, 47, 0.1);
+    color: var(--theme-dark-red-base, #D32F2F);
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 0.85rem;
+}
+
+.focus-item p {
+    margin: 0;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #333333;
+}
+
+.nursery-image-frame {
+    position: relative;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.nursery-featured-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+.nursery-curriculum-section {
+    background-color: #fbfbfb;
+    padding: 80px 0;
+    border-top: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.nursery-section-center-head {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 50px auto;
+}
+
+.nursery-section-center-head h2 {
+    color: var(--theme-dark-red-base, #D32F2F);
+    font-size: 2.2rem;
+    margin: 0 0 15px 0;
+}
+
+.nursery-section-center-head p {
+    color: #666666;
+    font-size: 1.05rem;
+}
+
+.nursery-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.curriculum-card {
+    background-color: #ffffff;
+    padding: 35px;
+    border-radius: 6px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.03);
+    position: relative;
+    border: 1px solid #f0f0f0;
+}
+
+.card-edge-accent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: var(--theme-dark-red-base, #D32F2F);
+}
+
+.curriculum-card h3 {
+    color: #222222;
+    font-size: 1.35rem;
+    margin: 0 0 15px 0;
+}
+
+.curriculum-card p {
+    color: #666666;
+    font-size: 0.98rem;
+    margin: 0;
+    line-height: 1.65;
+}
+
+
+.nursery-cta-banner {
+    background: linear-gradient(135deg, var(--theme-dark-red-base, #D32F2F), #b71c1c);
+    color: #ffffff;
+    padding: 60px 0;
+}
+
+.nursery-cta-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.cta-text h2 {
+    font-size: 2rem;
+    margin: 0 0 10px 0;
+}
+
+.cta-text p {
+    margin: 0;
+    font-size: 1.05rem;
+    opacity: 0.9;
+    max-width: 680px;
+}
+
+.cta-actions {
+    display: flex;
+    gap: 16px;
+    flex-shrink: 0;
+}
+
+
+.nursery-btn-primary, .nursery-btn-secondary {
+    display: inline-block;
+    padding: 14px 28px;
+    font-size: 0.95rem;
+    font-weight: 700;
+    text-decoration: none !important;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.nursery-btn-primary {
+    background-color: var(--theme-orange-accent, #F57C00);
+    color: #ffffff !important;
+}
+
+.nursery-btn-primary:hover {
+    background-color: #e65100;
+    transform: translateY(-2px);
+}
+
+.nursery-btn-secondary {
+    background-color: transparent;
+    color: #ffffff !important;
+    border: 2px solid #ffffff;
+}
+
+.nursery-btn-secondary:hover {
+    background-color: #ffffff;
+    color: var(--theme-dark-red-base, #D32F2F) !important;
+    transform: translateY(-2px);
+}
+
+
+@media (max-width: 992px) {
+    .nursery-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    .nursery-intro-media {
+        order: -1; 
+    }
+    .nursery-cta-flex {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .nursery-hero-banner { padding: 40px 0; }
+    .nursery-main-title { font-size: 2rem; }
+    .nursery-intro-section, .nursery-curriculum-section { padding: 50px 0; }
+    .nursery-intro-content h2, .nursery-section-center-head h2 { font-size: 1.75rem; }
+    .cta-actions { flex-direction: column; width: 100%; gap: 12px; }
+    .nursery-btn-primary, .nursery-btn-secondary { text-align: center; width: 100%; }
+}
